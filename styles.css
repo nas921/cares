@@ -341,23 +341,21 @@ a img{
 }
 
 .android-wear-band {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
   background-color: #37474f;
 }
 
 .android-wear-band-text {
-  max-width: 800px;
-  margin-left: 25%;
+  max-width: 1200px;
   padding: 24px;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
   .android-wear-band-text p {
     padding-top: 8px;
+    text-align: left;
   }
 
 .android-link {
