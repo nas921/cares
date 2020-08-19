@@ -71,6 +71,10 @@ a img{
   width: 148px;
 }
 
+.android-social-logo-image {
+  height: 50px;
+  width: 50px;
+}
 
 .android-header {
   overflow: visible;
@@ -91,6 +95,8 @@ a img{
     font-weight: 200;
     font-size: 14px;
     font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .android-navigation-container {
@@ -194,16 +200,33 @@ a img{
   font-weight: 500;
 }
 
-.android-slogan {
+.android-slogan-inicio {
   font-size: 60px;
-  padding-top: 160px;
-  text-align: left;
+  padding-top: 100px;
+  text-align: center;
   color: white;
+}
+
+.android-slogan {
+  font-size: 40px;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.android-sub-slogan-inicio {
+  font-size: 21px;
+  padding-top: 100px;
 }
 
 .android-sub-slogan {
   font-size: 21px;
-  padding-top: 24px;
+  padding-top: 50px;
+}
+
+.android-sub-slogan-text {
+  font-size: 18px;
+  padding-top: 100px;
 }
 
 .android-create-character {
@@ -312,9 +335,9 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/ea-cacazmte18-2.jpg') center top no-repeat;
+  background: url('images/rapelCorto.jpg') center top no-repeat;
   background-size: cover;
-  height: 1100px;
+  height: 517px;
 }
 
 .android-wear-band {

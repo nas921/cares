@@ -1,21 +1,4 @@
 <!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -29,17 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
     <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
+
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -59,11 +32,11 @@
           <!-- Navigation -->
           <div class="android-navigation-container" style="text-align: right !important">
             <nav class="android-navigation mdl-navigation" style="text-align: right !important">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">INICIO</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#inicio">INICIO</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#tuReserva">TU&nbsp;RESERVA</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#incorporacion">INCORPORACION</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">CONTACTO</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">FOTOS</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#fotos">FOTOS</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">INSTITUCIONAL</a>
             </nav>
           </div>
@@ -78,11 +51,11 @@
           <img class="lateral-menu-logo-image" src="images/logoCares.png">
         </span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">INICIO</a>
+          <a class="mdl-navigation__link" href="#inicio">INICIO</a>
           <a class="mdl-navigation__link" href="#tuReserva">TU&nbsp;RESERVA</a>
           <a class="mdl-navigation__link" href="#incorporacion">INCORPORACION</a>
           <a class="mdl-navigation__link" href="">CONTACTO</a>
-          <a class="mdl-navigation__link" href="">FOTOS</a>
+          <a class="mdl-navigation__link" href="#fotos">FOTOS</a>
           <a class="mdl-navigation__link" href="">INSTITUCIONAL</a>
           <div class="android-drawer-separator"></div>
           <span class="mdl-navigation__link" href="">Sitios de interés</span>
@@ -95,25 +68,71 @@
 
       <div class="android-content mdl-layout__content">
         <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center" id="tuReserva">
-          <div class="logo-font android-slogan">La Compañía de reserva General San Martín se creó en el 2020 asdas
-            <br> Algo más de historia 
-            .</div>
-          <div class="logo-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
-          <div class="logo-font android-create-character">
-            <a href=""><img src="images/andy.png"> create your android character</a>
+        <div class="android-be-together-section mdl-typography--text-center" id="inicio">
+          <div class="logo-font android-slogan">Compañía de Reserva General San Martín  
           </div>
+       
+          <div class="logo-font android-sub-slogan-inicio">Bienvenido</div>
 
-          <a href="#screens">
+          <a href="#tuReserva">
             <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
               <i class="material-icons">expand_more</i>
             </button>
           </a>
+
         </div>
 
-        <div class="android-wear-section" id="incorporacion">
+        <div class="android-more-section" id="tuReserva">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">Tu Reserva</div>
+          <div class="android-card-container mdl-grid">
+
+
+            <div class="logo-font android-sub-slogan">
+              Breve resumen del del Liceo Militar Gral San Martin.
+              <br>
+              <div>
+                <br>Mision:
+              </div>
+            
+            </div>
+
+            <div class="logo-font android-sub-slogan">
+              <p>
+                Los Liceos Militares son Institutos fundados para formar ciudadanos que compartan los valores del Ejército Argentino. Estos Institutos son Unidades Educativas Preuniversitarias que tendrán como misión:
+                Brindar una sólida formación académica de calidad, desde su especificidad, en los tres niveles de la educación formal obligatoria (Nivel Inicial, Primario y Secundario), en forma integral, articulando los niveles y orientaciones de la oferta educativa, para el acceso a estudios superiores y que los habilite para su desempeño social y laboral
+                Desarrollar una educación que estimule la comprensión y compromiso con los valores éticos y republicanos, insertos en nuestra Constitución Nacional, el respeto a la persona humana, el amor a la Patria, la pasión por la libertad y el sentido trascendente de la vida.
+                En el nivel secundario, desarrollar las competencias militares que permita a los egresados integrar la Reserva del Ejército Argentino.      
+              </p>
+              <p>
+                Efemérides
+              </p>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-1.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Get going on Android</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Make the switch
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="android-wear-section mdl-typography--text-center" id="incorporacion">
+          <div class="logo-font android-slogan">Incorporate</div>
           <div class="android-wear-band">
             <div class="android-wear-band-text">
+
               <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
               <p class="mdl-typography--headline mdl-typography--font-thin">
                 Android works perfectly with your favourite apps like Google Maps,
@@ -127,19 +146,8 @@
             </div>
           </div>
         </div>
-        <div class="android-customized-section">
-          <div class="android-customized-section-text">
-            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
-            <p class="mdl-typography--font-light">
-              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-              <br>
-              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
-            </p>
-          </div>
-          <div class="android-customized-section-image"></div>
-        </div>
-        <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">More from Android</div>
+        <div class="android-more-section" id="fotos">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">Galer[ia de fotos</div>
           <div class="android-card-container mdl-grid">
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
@@ -179,17 +187,17 @@
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-2.png">
+                <img src="images/more-from-4.png">
               </div>
               <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
               </div>
               <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
               </div>
               <div class="mdl-card__actions">
                  <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Download now
+                   androidify.com
                    <i class="material-icons">chevron_right</i>
                  </a>
               </div>
@@ -197,46 +205,145 @@
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-3.png">
+                <img src="images/more-from-4.png">
               </div>
               <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Millions to choose from</h4>
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
               </div>
               <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
               </div>
               <div class="mdl-card__actions">
                  <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Find apps
+                   androidify.com
                    <i class="material-icons">chevron_right</i>
                  </a>
               </div>
             </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-4.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   androidify.com
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-4.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   androidify.com
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-4.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   androidify.com
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-4.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   androidify.com
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-4.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   androidify.com
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
           </div>
+
         </div>
 
         <footer class="android-footer mdl-mega-footer">
           <div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--left-section">
-              <button class="mdl-mega-footer--social-btn"></button>
+              <button class="mdl-mega-footer--social-btn">
+                <a href="">
+                  <img src="images/igLogo.jpg" class="android-social-logo-image">
+                </a>
+              </button>
               &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
+              <button class="mdl-mega-footer--social-btn">
+                <a href="">
+                  <img src="images/igLogo.jpg" class="android-social-logo-image">
+                </a>
+              </button>
               &nbsp;
               <button class="mdl-mega-footer--social-btn"></button>
             </div>
             <div class="mdl-mega-footer--right-section">
               <a class="mdl-typography--font-light" href="#top">
-                Back to Top
+                Volver al Inicio
                 <i class="material-icons">expand_less</i>
               </a>
             </div>
           </div>
 
           <div class="mdl-mega-footer--middle-section">
-            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
-            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
+            <p class="mdl-typography--font-light">© Copyright 2020. Todos los derechos reservados | CARES San Martin.</p>
           </div>
-<!--
+
           <div class="mdl-mega-footer--bottom-section">
             <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
               Versions
@@ -261,11 +368,12 @@
             <a class="android-link mdl-typography--font-light" href="">Blog</a>
             <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
           </div>
-        -->
+        
         </footer>
       </div>
     </div>
-    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+    
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
   </body>
 </html>
