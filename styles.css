@@ -90,6 +90,7 @@ a img{
     color: #757575;
     font-weight: 200;
     font-size: 14px;
+    font-weight: bold;
   }
 
   .android-navigation-container {
@@ -196,6 +197,8 @@ a img{
 .android-slogan {
   font-size: 60px;
   padding-top: 160px;
+  text-align: left;
+  color: white;
 }
 
 .android-sub-slogan {
