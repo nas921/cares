@@ -347,7 +347,6 @@ a img{
 }
 
 .android-wear-band-text {
-  max-width: 1200px;
   padding: 24px;
   text-align: center;
   color: white;
@@ -355,11 +354,6 @@ a img{
 
   .android-wear-band-text p {
     padding-top: 8px;
-    text-align: center !important;
-    align-content: center !important;
-    align-items: center !important;
-    -ms-grid-column-align: center !important;
-    align-self: auto;
   }
 
 .android-link {
