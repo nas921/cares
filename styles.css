@@ -574,5 +574,6 @@ a img{
 
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
+    padding-left: 8px;
   }
 }
