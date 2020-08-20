@@ -355,7 +355,11 @@ a img{
 
   .android-wear-band-text p {
     padding-top: 8px;
-    text-align: left;
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    -ms-grid-column-align: center !important;
+    align-self: auto;
   }
 
 .android-link {
@@ -565,6 +569,7 @@ a img{
   .android-wear-band-text {
     margin-left: 0;
     padding: 16px;
+    
   }
 
   .android-footer .mdl-mega-footer--bottom-section {
